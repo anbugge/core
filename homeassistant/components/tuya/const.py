@@ -48,6 +48,7 @@ TUYA_SUPPORTED_PRODUCT_CATEGORIES = (
     "wk",  # Thermostat
     "xdd",  # Ceiling Light
     "xxj",  # Diffuser
+    "zd",  # Vibration Sensor
 )
 
 TUYA_SMART_APP = "tuyaSmart"
@@ -99,7 +100,9 @@ class DPCode(str, Enum):
     PIR = "pir"  # Motion sensor
     POWDER_SET = "powder_set"  # Powder
     PUMP_RESET = "pump_reset"  # Water pump reset
+    SENSITIVITY = "sensitivity"  # Sensitivity
     SHAKE = "shake"  # Oscillating
+    SHOCK_STATE = "shock_state"  # Vibration status
     SPEED = "speed"  # Speed level
     START = "start"  # Start
     SWING = "swing"  # Swing mode
